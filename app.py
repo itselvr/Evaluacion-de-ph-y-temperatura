@@ -24,4 +24,9 @@ if st.button("Evaluar"):
   else:
       st.success("el lote es aceptable")
       st.write(f"Resultado: {resultado}")
-concentracion= st.number_imput( "concentracion (%), value=10.0")
+concentracion = st.number_input(
+    "Concentración (%)",
+    value=10.0
+)
+
+
