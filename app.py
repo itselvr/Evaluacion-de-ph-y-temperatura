@@ -23,7 +23,5 @@ elif revisar temperatura:
     value= ("temperatura < 20 or temperatura > 25")
 else lote aceptable:
     resultado=("ph=6 or ph=7, temperatura=20 or temperatura=25")
-concentracion= st.number_imput( 
-    "concentracion (%),
-    value=10.0)
+concentracion= st.number_imput( "concentracion (%), value=10.0)
     st.write(f"Resultado: {resultado}")
