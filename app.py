@@ -1,4 +1,6 @@
 import streamlit as st
+st.sidebar.title("evaluacion de temperatura y ph")
+st.sidebar.write("es una aplicacion de un lote liquido que evalua dos variables: ph y temperatura, itsel guadalupe vazquez reyes, grupo 3l, facultad de ciencias quimicas.")
 
 st.title("Evaluación de un lote")
 
@@ -21,5 +23,7 @@ elif revisar temperatura:
     value= ("temperatura < 20 or temperatura > 25")
 else lote aceptable:
     resultado=("ph=6 or ph=7, temperatura=20 or temperatura=25")
-
+concentracion= st.number_imput( 
+    "concentracion (%),
+    value=10.0)
     st.write(f"Resultado: {resultado}")
