@@ -23,6 +23,5 @@ if st.button("Evaluar"):
       st.warning("revisar la temperatura")
   else:
       st.success("el lote es aceptable")
-    
+      st.write(f"Resultado: {resultado}")
 concentracion= st.number_imput( "concentracion (%), value=10.0")
-    st.write(f"Resultado: {resultado}")
